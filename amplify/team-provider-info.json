@@ -10,6 +10,11 @@
       "StackName": "amplify-vidlify-dev-204435",
       "StackId": "arn:aws:cloudformation:us-east-1:505116507323:stack/amplify-vidlify-dev-204435/59a4cd90-d93c-11eb-932a-0ecb50cc3755",
       "AmplifyAppId": "dtz7xh4wj24i5"
+    },
+    "categories": {
+      "auth": {
+        "vidlify63f4d714": {}
+      }
     }
   }
 }

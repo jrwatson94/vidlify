@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "vidlify63f4d714": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
