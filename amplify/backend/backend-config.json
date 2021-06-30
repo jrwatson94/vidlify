@@ -1,10 +1,16 @@
 {
   "auth": {
-    "vidlify63f4d714": {
+    "vidlify4db47cc9": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false
+    }
+  },
+  "storage": {
+    "userVideos": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "vidlify63f4d714_identitypool_63f4d714",
+    "identityPoolName": "vidlify4db47cc9_identitypool_4db47cc9",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "vidlif63f4d714",
-    "userPoolName": "vidlify63f4d714_userpool_63f4d714",
+    "resourceNameTruncated": "vidlif4db47cc9",
+    "userPoolName": "vidlify4db47cc9_userpool_4db47cc9",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "vidlif63f4d714_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "vidlif4db47cc9_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "63f4d714",
-    "resourceName": "vidlify63f4d714",
+    "sharedId": "4db47cc9",
+    "resourceName": "vidlify4db47cc9",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -46,9 +46,6 @@
         ]
     },
     "useDefault": "default",
-    "usernameAttributes": [
-        "email"
-    ],
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
