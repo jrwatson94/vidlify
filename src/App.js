@@ -17,7 +17,7 @@ function App() {
   const [videos, setVideos] = useState([]);
 
   useEffect( async () => {
-    const vids = await Storage.list('')
+    const vids = await Storage.list('',{ level: 'private' })
     setVideos(vids);
     console.log(vids)
   }, [fileName])
@@ -42,7 +42,7 @@ function App() {
       setLoading(true);
       // Upload the file to s3 with private access level. 
       await Storage.put(file.name, file, {
-        level: 'public',
+        level: 'private',
         contentType: 'video'
       });
       // Retrieve the uploaded file to display
