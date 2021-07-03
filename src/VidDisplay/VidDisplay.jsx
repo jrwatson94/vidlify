@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+
 import './VidDisplay.css';
 
-function VidDisplay() {
+function VidDisplay(props) {
+  
+    console.log(props.video);
     return (
-      <div className="App">
+
+      <div className="VidDisplay">
+        {props.video ? <video controls type="video/mp4" style={{ width: "30rem" }} src={props.video} /> : <span />}
       </div>
     );
 }
